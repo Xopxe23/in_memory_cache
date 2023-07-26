@@ -8,7 +8,7 @@ My first homework in Go Ninja course
 <p>
 • <a href="#about">About</a> •
 <a href="#installation">Installation</a>
-•<a href="#examples">Installation</a> •
+•<a href="#examples">Examples</a> •
 </p>
 
 </div>
@@ -21,6 +21,7 @@ To install package enter command: <br>
 - go get github.com/xopxe23/in_memory_cache
 
 ## Examples
+<h1>Code</h1>
 
 ```go
 package in_memory_cache
@@ -47,6 +48,7 @@ func (c *Cache) Get(key string) interface{} {
 	return cache[key]
 }
 ```
+<h1>Example</h1>
 
 ```go
 package main
