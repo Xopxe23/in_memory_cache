@@ -21,7 +21,7 @@ To install package enter command: <br>
 - go get github.com/xopxe23/in_memory_cache
 
 ## Examples
-<h1>Code</h1>
+<h4>Code</h4>
 
 ```go
 package in_memory_cache
@@ -48,7 +48,7 @@ func (c *Cache) Get(key string) interface{} {
 	return cache[key]
 }
 ```
-<h1>Example</h1>
+<h4>Example</h4>
 
 ```go
 package main
